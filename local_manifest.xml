@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="CyanogenMod/android_build" />
+  <project path="build" name="thunderc/cm_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="thunderc/cm_vendor_cm" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="thunderc/cm_packages_apps_Settings" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Email" name="thunderc/cm_packages_apps_Email" />
+
+  <remove-project name="CyanogenMod/android_external_vim" />
+
+  <project path="device/lge/thunderc-common" name="thunderc/cm_device_lge_thunderc-common" />
+  <project path="device/lge/VM670" name="thunderc/cm_device_lge_VM670" />
+  <project path="device/lge/LS670" name="thunderc/cm_device_lge_LS670" />
+  <project path="device/lge/VS660" name="thunderc/cm_device_lge_VS660" />
+  <project path="vendor/lge/VM670" name="thunderc/android_vendor_lge_VM670" />
+  <project path="vendor/lge/LS670" name="thunderc/android_vendor_lge_LS670" />
+  <project path="vendor/lge/VS660" name="thunderc/android_vendor_lge_VS660" />
+
+</manifest>
