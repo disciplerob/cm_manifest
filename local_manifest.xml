@@ -19,10 +19,7 @@
 
   <project path="device/lge/thunderc-common" name="thunderc/cm_device_lge_thunderc-common" />
   <project path="device/lge/VM670" name="thunderc/cm_device_lge_VM670" />
-  <project path="device/lge/LS670" name="thunderc/cm_device_lge_LS670" />
-  <project path="device/lge/VS660" name="thunderc/cm_device_lge_VS660" />
   <project path="vendor/lge/VM670" name="thunderc/android_vendor_lge_VM670" />
-  <project path="vendor/lge/LS670" name="thunderc/android_vendor_lge_LS670" />
-  <project path="vendor/lge/VS660" name="thunderc/android_vendor_lge_VS660" />
+
 
 </manifest>
